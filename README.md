@@ -49,17 +49,9 @@ The physical actuator. Built using `PyAutoGUI`, this module takes verified comma
 2. A working webcam and microphone.
 3. The offline Vosk language model.
 
-### Step-by-Step Guide
-1. **Clone the repository:**
-```bash
-   git clone [https://github.com/YourUsername/ELIAS.git](https://github.com/YourUsername/ELIAS.git)
-   cd ELIAS
 Install the required libraries:
-
-Bash
    pip install customtkinter opencv-python face_recognition pyaudio sounddevice vosk pyttsx3 pyautogui Levenshtein
 Set up the Offline Model:
-
 Download the vosk-model-small-en-us from the official Vosk website.
 
 Extract the folder, rename it strictly to model, and place it in the root directory of this project.
@@ -73,8 +65,11 @@ Run the application:
 Bash
    python app.py
 🛣️ Future Roadmap
-Cross-Platform Support: Transitioning RPA hooks to fully support macOS and Linux environments.
+Cross-Platform Support:
+Transitioning RPA hooks to fully support macOS and Linux environments.
 
-SLM Integration: Replacing hardcoded alias dictionaries with localized Small Language Models (e.g., Llama-3-8B via Ollama) to allow for complex, conversational intent parsing while maintaining absolute privacy.
+SLM Integration:
+Replacing hardcoded alias dictionaries with localized Small Language Models (e.g., Llama-3-8B via Ollama) to allow for complex, conversational intent parsing while maintaining absolute privacy.
 
-Low-Light Resilience: Implementing adaptive histogram equalization for the biometric scanner to operate in pitch-black environments.
+Low-Light Resilience:
+Implementing adaptive histogram equalization for the biometric scanner to operate in pitch-black environments.
